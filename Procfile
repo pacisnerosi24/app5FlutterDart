@@ -1,1 +1,1 @@
-web: dart pub global run dhttpd --host 0.0.0.0 --path /app/
+web: npx http-server build/web -p $PORT
